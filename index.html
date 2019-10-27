@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+
+
+
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+
+
+
+
+    
+    <title>Document</title>
+
+
+    <style>
+        #car .carBody {
+            width: 100%;
+        }
+
+        #car:hover{
+            right:100%;
+            top:80%;
+        }
+
+        #car {
+            transition: right 3s linear 0s, top 3s linear 0s;
+            width: 400px;
+            height: 200px;
+            border: 1px solid red;
+            right:0;
+            top:0;
+            position:absolute;
+        }
+
+        .wheel:nth-child(2) {
+
+            position: absolute;
+            top: 61px;
+            width: 70px;
+            left: 58px;
+
+        }
+
+        .wheel:last-child {
+            position: absolute;
+            top: 58px;
+            width: 70px;
+            right: 44px;
+
+
+        }
+
+        /* .box:hover{
+            transform:rotate(40deg) scale(1.5,1);
+        } */
+
+        .box{
+            margin-left: 100px;
+            width:100px;
+            height: 100px;
+            background-color: green;
+            /* transition:transform 2s ease-in-out 0s; */
+            transform:scale(1.5,1)
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="box">
+
+    </div>
+
+    <div id="car">
+        <img class="carBody" src="car.png" alt="">
+        <img class="wheel" src="wheel.png" alt="">
+        <img class="wheel" src="wheel.png" alt="">
+    </div>
+
+
+    <!-- <div class="myBox">
+
+    </div>
+
+    <div class="myBox">
+
+        this is soem content in here
+
+    </div>
+
+    <section class="myBox">
+
+    </section> -->
+    <!-- 
+
+ <span>This is outer span</span>
+
+
+ <section id="myTag">
+
+    <article>
+
+        <span class="mydata">this is inner span1</span>
+        <span class="mydata">this is inner span2</span>
+        <span class="mydata">this is inner span3</span>
+        <span class="mydata">this is inner span4</span>
+        <span class="mydata">this is inner span5</span>
+
+    </article>
+
+ </section> -->
+
+</body>
+
+</html>
